@@ -1,0 +1,223 @@
+
+**** 01/21/24 12:14:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-test"  [ C:\Users\Corina Costea\Desktop\PROIECT\P1_2023_434E_Costea_Corina_GSD_N7_OrCad\Schematics\Generator
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "test.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "C:/Users/Corina Costea/Desktop/PROIECT/P1_2023_434E_Costea_Corina_GSD_N7_OrCad/Schematics/biblioteci pspice/modele_a1_lib/bc8"
++ "17-25.lib" 
+.LIB "C:/Users/Corina Costea/Desktop/PROIECT/P1_2023_434E_Costea_Corina_GSD_N7_OrCad/Schematics/biblioteci pspice/modele_a1_lib/bc8"
++ "07-25.lib" 
+.LIB "C:/Users/Corina Costea/Desktop/PROIECT/P1_2023_434E_Costea_Corina_GSD_N7_OrCad/Schematics/biblioteci pspice/modele_a1_lib/1n4"
++ "148.lib" 
+.LIB "C:/Users/Corina Costea/Desktop/PROIECT/P1_2023_434E_Costea_Corina_GSD_N7_OrCad/Schematics/biblioteci pspice/modele spice led "
++ "2022/smls14bet.lib" 
+.LIB "C:/Users/Corina Costea/Desktop/PROIECT/P1_2023_434E_Costea_Corina_GSD_N7_OrCad/Schematics/biblioteci pspice/modele spice led "
++ "2022/opto.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Corina Costea\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source DREPT
+Q_Q5         VEE N207053 N206611 QBC807-25 
+R_R3         N207045 0  1k TC=0,0 
+X_POT2         N206819 N206819 N213339 POT PARAMS: SET=0.17 VALUE=500k
+Q_Q4         N207131 N207045 N206611 QBC807-25 
+R_RL1         N207407 N213339  3.3k TC=0,0 
+Q_Q3         N206705 N206555 N219654 QBC807-25 
+R_RL3         0 N2074211  1k TC=0,0 
+Q_Q1         N206555 N206555 N206397 QBC807-25 
+V_V1         VCC 0 10
+Q_Q2         N206611 N206555 N206403 QBC807-25 
+Q_Q7         VEE N207317 N206819 QBC807-25 
+Q_Q8         VCC N206705 N206819 QBC817-25 
+R_R5         N206397 VCC  100 TC=0,0 
+V_V2         0 VEE 10
+R_R1         N206555 0  6.8k TC=0,0 
+R_R4         N207045 N206819  1k TC=0,0 
+R_RL2         N2074211 N207407  2.7k TC=0,0 
+Q_Q6         N207317 N207131 VEE QBC817-25 
+X_POT1         N207053 N207053 N206819 POT PARAMS: SET=0.02 VALUE=10k
+R_R6         N206403 VCC  100 TC=0,0 
+C_C1         0 N207053  100n  TC=0,0 
+X_U2         N206705 N206879 1N4148 
+X_U3         N206879 N207317 1N4148 
+D_D4         0 N216307 SMLS14BET 
+R_R2         VCC N219654  100 TC=0,0 
+R_R7         VEE N207131  1.5k TC=0,0 
+D_D5         N215789 0 SMLS14BET 
+R_R9         VCC N215789  1k TC=0,0 
+R_R8         VCC N215789  1k TC=0,0 
+R_R11         VEE N216307  1k TC=0,0 
+R_R10         VEE N216307  1k TC=0,0 
+
+**** RESUMING test.cir ****
+.END
+
+**** 01/21/24 12:14:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-test"  [ C:\Users\Corina Costea\Desktop\PROIECT\P1_2023_434E_Costea_Corina_GSD_N7_OrCad\Schematics\Generator
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               SMLS14BET       X_U2.1N4148     X_U3.1N4148     
+          IS  405.890000E-24    4.352000E-09    4.352000E-09 
+           N    2.4475          1.906           1.906        
+         IKF     .98529                                      
+          BV                  110             110            
+         IBV                  100.000000E-06  100.000000E-06 
+          RS   15.483            .6458           .6458       
+          TT                    3.480000E-09    3.480000E-09 
+         CJO   38.500000E-12  704.800000E-15  704.800000E-15 
+          VJ     .87273          .869            .869        
+           M     .20189          .03             .03         
+          EG    2.638                                        
+
+
+**** 01/21/24 12:14:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-test"  [ C:\Users\Corina Costea\Desktop\PROIECT\P1_2023_434E_Costea_Corina_GSD_N7_OrCad\Schematics\Generator
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC817-25       QBC807-25       
+               NPN             PNP             
+       LEVEL    1               1            
+          IS   91.980000E-15  108.000000E-15 
+          BF  338.8           385.7          
+          NF    1.003            .99         
+         VAF  107.9            31.29         
+         IKF     .4913           .3603       
+         ISE  446.800000E-18   27.130000E-15 
+          NE    1.65            1.4          
+          BR   29.48           20.57         
+          NR    1.002            .9849       
+         VAR   25              11.62         
+         IKR     .193            .054        
+         ISC    5.109000E-15  506.200000E-15 
+          NC    1.071           1.295        
+         ISS    0               0            
+          RB    1               1            
+         RBM    1                .5          
+         IRB    1.000000E+03    1.000000E-06 
+          RE     .2126           .1415       
+          RC     .143            .2623       
+         CJE   38.250000E-12   51.140000E-12 
+         VJE     .7004           .8911       
+         MJE     .364            .4417       
+         CJC   12.700000E-12   26.560000E-12 
+         VJC     .4431           .62         
+         MJC     .3983           .4836       
+        XCJC     .4555           .459        
+         CJS    0               0            
+         VJS     .75             .75         
+         MJS     .333            .333        
+          FC     .905            .99         
+          TF  522.900000E-12  735.900000E-12 
+         XTF  219.7             1.859        
+         VTF    3.502           3.813        
+         ITF    7.257            .4393       
+          TR   70.000000E-12   50.000000E-09 
+          KF    0               0            
+          AF    1               1            
+          CN    2.42            2.2          
+           D     .87             .52         
+
+
+**** 01/21/24 12:14:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-test"  [ C:\Users\Corina Costea\Desktop\PROIECT\P1_2023_434E_Costea_Corina_GSD_N7_OrCad\Schematics\Generator
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VCC)   10.0000  (  VEE)  -10.0000  (N206397)    9.8644                       
+
+(N206403)    9.8588                   (N206555)    9.2674                       
+
+(N206611)     .5370                   (N206705)     .5891                       
+
+(N206819)    -.0451                   (N206879)    -.0369                       
+
+(N207045)    -.0221                   (N207053)    -.0447                       
+
+(N207131)   -9.3927                   (N207317)    -.6629                       
+
+(N207407)    -.0018                   (N213339)    -.0034                       
+
+(N215789)    3.0625                   (N216307)   -3.0625                       
+
+(N219654)    9.8588                   (N2074211)-490.4E-06                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.194E-02
+    V_V2        -2.060E-02
+
+    TOTAL POWER DISSIPATION   4.25E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 01/21/24 12:14:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-test"  [ C:\Users\Corina Costea\Desktop\PROIECT\P1_2023_434E_Costea_Corina_GSD_N7_OrCad\Schematics\Generator
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .05
+

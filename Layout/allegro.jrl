@@ -1,0 +1,18 @@
+\t (00:20:10) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:20:10)     Journal start - Fri Mar 22 15:11:48 2024
+\t (00:20:10)         Host=DESKTOP-8AL4C7F User=Corina Costea Pid=548 CPUs=4
+\t (00:20:10) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:20:10) 
+\d (00:20:10) Design opened: C:/Users/Corina Costea/Desktop/PROIECT/P1_2023_434E_Costea_Corina_GSD_N7_OrCad/Layout/GSD_Costea_Corina.brd
+\i (00:20:10) generaledit 
+\i (00:21:32) etchedit 
+\i (00:21:39) etchedit 
+\i (00:21:39) etchedit 
+\i (00:21:39) etchedit 
+\i (00:21:40) etchedit 
+\i (00:21:42) open 
+\i (00:21:54) fillin "C:\Users\Corina Costea\Desktop\AN 2\PROIECT_FINAL\TIE_PROIECT\PROIECT_pcb.brd"
+\i (00:21:54) cd "C:\Users\Corina Costea\Desktop\AN 2\PROIECT_FINAL\TIE_PROIECT"
+\t (00:21:54) Opening existing design...
+\i (00:21:54) trapsize 1826
+\t (00:21:54)     Journal end - Fri Mar 22 15:13:32 2024

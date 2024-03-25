@@ -1,0 +1,28 @@
+** Profile: "SCHEMATIC1-test"  [ C:\Users\Corina Costea\Desktop\PROIECT\P1_2023_434E_Costea_Corina_GSD_N7_OrCad\Schematics\Generator semnal dreptunghiular\drept-pspicefiles\schematic1\test.sim ] 
+
+** Creating circuit file "test.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "C:/Users/Corina Costea/Desktop/PROIECT/P1_2023_434E_Costea_Corina_GSD_N7_OrCad/Schematics/biblioteci pspice/modele_a1_lib/bc8"
++ "17-25.lib" 
+.LIB "C:/Users/Corina Costea/Desktop/PROIECT/P1_2023_434E_Costea_Corina_GSD_N7_OrCad/Schematics/biblioteci pspice/modele_a1_lib/bc8"
++ "07-25.lib" 
+.LIB "C:/Users/Corina Costea/Desktop/PROIECT/P1_2023_434E_Costea_Corina_GSD_N7_OrCad/Schematics/biblioteci pspice/modele_a1_lib/1n4"
++ "148.lib" 
+.LIB "C:/Users/Corina Costea/Desktop/PROIECT/P1_2023_434E_Costea_Corina_GSD_N7_OrCad/Schematics/biblioteci pspice/modele spice led "
++ "2022/smls14bet.lib" 
+.LIB "C:/Users/Corina Costea/Desktop/PROIECT/P1_2023_434E_Costea_Corina_GSD_N7_OrCad/Schematics/biblioteci pspice/modele spice led "
++ "2022/opto.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Corina Costea\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

@@ -1,0 +1,20 @@
+\t (00:00:23) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:23)     Journal start - Fri Mar 22 14:52:01 2024
+\t (00:00:23)         Host=DESKTOP-8AL4C7F User=Corina Costea Pid=548 CPUs=4
+\t (00:00:23) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:23) 
+\d (00:00:23) Design opened: C:/Users/Corina Costea/Desktop/PROIECT/P1_2023_434E_Costea_Corina_GSD_N7_OrCad/Layout/GSD_Costea_Corina.brd
+\i (00:00:23) generaledit 
+\i (00:00:27) zoom fit 
+\i (00:00:27) trapsize 1123
+\i (00:00:30) artwork 
+\i (00:01:25) setwindow form.film_control
+\i (00:01:25) FORM film_control cancel  
+\i (00:01:25) setwindow pcb
+\i (00:01:25) generaledit 
+\i (00:01:27) open 
+\i (00:01:38) fillin "C:\Users\Corina Costea\Desktop\AN 2\PROIECT_FINAL\TIE_PROIECT\PROIECT_pcb.brd"
+\i (00:01:38) cd "C:\Users\Corina Costea\Desktop\AN 2\PROIECT_FINAL\TIE_PROIECT"
+\t (00:01:38) Opening existing design...
+\i (00:01:38) trapsize 1826
+\t (00:01:38)     Journal end - Fri Mar 22 14:53:16 2024
